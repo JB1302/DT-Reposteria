@@ -1,0 +1,402 @@
+[
+  {
+    "nombre": "Sofía",
+    "apellido": "Gómez",
+    "telefono": "8196-6352",
+    "correo": "sofia.gomez1@correo.com",
+    "direccion": "San Rafael, centro",
+    "activo": true
+  },
+  {
+    "nombre": "Valeria",
+    "apellido": "Rodríguez",
+    "telefono": "8529-5570",
+    "correo": "valeria.rodriguez2@correo.com",
+    "direccion": "Cartago, 50 m sur de la iglesia",
+    "activo": true
+  },
+  {
+    "nombre": "Isabella",
+    "apellido": "Fernández",
+    "telefono": "8429-8076",
+    "correo": "isabella.fernandez3@correo.com",
+    "direccion": "Escazú, centro",
+    "activo": true
+  },
+  {
+    "nombre": "Camila",
+    "apellido": "López",
+    "telefono": "8785-8769",
+    "correo": "camila.lopez4@correo.com",
+    "direccion": "Escazú, centro",
+    "activo": false
+  },
+  {
+    "nombre": "Emma",
+    "apellido": "Martínez",
+    "telefono": "8467-1397",
+    "correo": "emma.martinez5@correo.com",
+    "direccion": "Alajuela, centro",
+    "activo": true
+  },
+  {
+    "nombre": "Lucía",
+    "apellido": "Sánchez",
+    "telefono": "8929-3707",
+    "correo": "lucia.sanchez6@correo.com",
+    "direccion": "Heredia, 100 m norte",
+    "activo": true
+  },
+  {
+    "nombre": "Daniela",
+    "apellido": "Pérez",
+    "telefono": "8794-2931",
+    "correo": "daniela.perez7@correo.com",
+    "direccion": "Desamparados, centro",
+    "activo": true
+  },
+  {
+    "nombre": "Mariana",
+    "apellido": "Ramírez",
+    "telefono": "8676-4805",
+    "correo": "mariana.ramirez8@correo.com",
+    "direccion": "Tibás, 50 m sur de la iglesia",
+    "activo": true
+  },
+  {
+    "nombre": "Gabriela",
+    "apellido": "Torres",
+    "telefono": "8997-3885",
+    "correo": "gabriela.torres9@correo.com",
+    "direccion": "Heredia, frente al parque",
+    "activo": true
+  },
+  {
+    "nombre": "Sara",
+    "apellido": "Morales",
+    "telefono": "8956-9092",
+    "correo": "sara.morales10@correo.com",
+    "direccion": "Tibás, centro",
+    "activo": true
+  },
+  {
+    "nombre": "Mateo",
+    "apellido": "Vargas",
+    "telefono": "8789-7731",
+    "correo": "mateo.vargas11@correo.com",
+    "direccion": "San Rafael, 50 m sur de la iglesia",
+    "activo": true
+  },
+  {
+    "nombre": "Santiago",
+    "apellido": "Castro",
+    "telefono": "8157-4354",
+    "correo": "santiago.castro12@correo.com",
+    "direccion": "Escazú, del súper 200 m este",
+    "activo": true
+  },
+  {
+    "nombre": "Sebastián",
+    "apellido": "Rojas",
+    "telefono": "8560-2007",
+    "correo": "sebastian.rojas13@correo.com",
+    "direccion": "Moravia, del súper 200 m este",
+    "activo": true
+  },
+  {
+    "nombre": "Nicolás",
+    "apellido": "Navarro",
+    "telefono": "8288-1035",
+    "correo": "nicolas.navarro14@correo.com",
+    "direccion": "Moravia, centro",
+    "activo": true
+  },
+  {
+    "nombre": "Diego",
+    "apellido": "Mora",
+    "telefono": "8980-5663",
+    "correo": "diego.mora15@correo.com",
+    "direccion": "Heredia, centro",
+    "activo": true
+  },
+  {
+    "nombre": "Samuel",
+    "apellido": "Herrera",
+    "telefono": "8729-7431",
+    "correo": "samuel.herrera16@correo.com",
+    "direccion": "Alajuela, centro",
+    "activo": true
+  },
+  {
+    "nombre": "Gabriel",
+    "apellido": "Jiménez",
+    "telefono": "8964-3813",
+    "correo": "gabriel.jimenez17@correo.com",
+    "direccion": "Cartago, 50 m sur de la iglesia",
+    "activo": true
+  },
+  {
+    "nombre": "Andrés",
+    "apellido": "Chaves",
+    "telefono": "8625-3218",
+    "correo": "andres.chaves18@correo.com",
+    "direccion": "Desamparados, del súper 200 m este",
+    "activo": true
+  },
+  {
+    "nombre": "Josué",
+    "apellido": "Solís",
+    "telefono": "8192-2146",
+    "correo": "josue.solis19@correo.com",
+    "direccion": "Escazú, del súper 200 m este",
+    "activo": true
+  },
+  {
+    "nombre": "Jonathan",
+    "apellido": "Araya",
+    "telefono": "8658-2444",
+    "correo": "jonathan.araya20@correo.com",
+    "direccion": "Cartago, 100 m norte",
+    "activo": true
+  },
+  {
+    "nombre": "María",
+    "apellido": "Quesada",
+    "telefono": "8494-4675",
+    "correo": "maria.quesada21@correo.com",
+    "direccion": "Heredia, 50 m sur de la iglesia",
+    "activo": true
+  },
+  {
+    "nombre": "Ana",
+    "apellido": "Alvarado",
+    "telefono": "8599-6944",
+    "correo": "ana.alvarado22@correo.com",
+    "direccion": "Goicoechea, 100 m norte",
+    "activo": true
+  },
+  {
+    "nombre": "Paula",
+    "apellido": "Salazar",
+    "telefono": "8428-9690",
+    "correo": "paula.salazar23@correo.com",
+    "direccion": "Alajuela, centro",
+    "activo": false
+  },
+  {
+    "nombre": "Elena",
+    "apellido": "Cordero",
+    "telefono": "8454-6241",
+    "correo": "elena.cordero24@correo.com",
+    "direccion": "Desamparados, 50 m sur de la iglesia",
+    "activo": false
+  },
+  {
+    "nombre": "Laura",
+    "apellido": "Vega",
+    "telefono": "8220-7961",
+    "correo": "laura.vega25@correo.com",
+    "direccion": "Desamparados, 50 m sur de la iglesia",
+    "activo": true
+  },
+  {
+    "nombre": "Jimena",
+    "apellido": "Arias",
+    "telefono": "8246-6796",
+    "correo": "jimena.arias26@correo.com",
+    "direccion": "Cartago, centro",
+    "activo": true
+  },
+  {
+    "nombre": "Adriana",
+    "apellido": "León",
+    "telefono": "8355-5233",
+    "correo": "adriana.leon27@correo.com",
+    "direccion": "Cartago, 50 m sur de la iglesia",
+    "activo": true
+  },
+  {
+    "nombre": "Carla",
+    "apellido": "Campos",
+    "telefono": "8430-2175",
+    "correo": "carla.campos28@correo.com",
+    "direccion": "San Rafael, del súper 200 m este",
+    "activo": true
+  },
+  {
+    "nombre": "Fernanda",
+    "apellido": "Barrantes",
+    "telefono": "8353-6619",
+    "correo": "fernanda.barrantes29@correo.com",
+    "direccion": "Moravia, 100 m norte",
+    "activo": true
+  },
+  {
+    "nombre": "Natalia",
+    "apellido": "Fuentes",
+    "telefono": "8166-3775",
+    "correo": "natalia.fuentes30@correo.com",
+    "direccion": "Cartago, 50 m sur de la iglesia",
+    "activo": true
+  },
+  {
+    "nombre": "Carlos",
+    "apellido": "Gómez",
+    "telefono": "8678-3863",
+    "correo": "carlos.gomez31@correo.com",
+    "direccion": "Heredia, 100 m norte",
+    "activo": true
+  },
+  {
+    "nombre": "Luis",
+    "apellido": "Rodríguez",
+    "telefono": "8974-9420",
+    "correo": "luis.rodriguez32@correo.com",
+    "direccion": "Goicoechea, frente al parque",
+    "activo": false
+  },
+  {
+    "nombre": "José",
+    "apellido": "Fernández",
+    "telefono": "8668-9088",
+    "correo": "jose.fernandez33@correo.com",
+    "direccion": "Alajuela, 50 m sur de la iglesia",
+    "activo": true
+  },
+  {
+    "nombre": "David",
+    "apellido": "López",
+    "telefono": "8883-9415",
+    "correo": "david.lopez34@correo.com",
+    "direccion": "Tibás, 100 m norte",
+    "activo": true
+  },
+  {
+    "nombre": "Kevin",
+    "apellido": "Martínez",
+    "telefono": "8325-9837",
+    "correo": "kevin.martinez35@correo.com",
+    "direccion": "Escazú, del súper 200 m este",
+    "activo": true
+  },
+  {
+    "nombre": "Bryan",
+    "apellido": "Sánchez",
+    "telefono": "8905-1445",
+    "correo": "bryan.sanchez36@correo.com",
+    "direccion": "Escazú, frente al parque",
+    "activo": true
+  },
+  {
+    "nombre": "Miguel",
+    "apellido": "Pérez",
+    "telefono": "8610-4955",
+    "correo": "miguel.perez37@correo.com",
+    "direccion": "Tibás, frente al parque",
+    "activo": false
+  },
+  {
+    "nombre": "Marco",
+    "apellido": "Ramírez",
+    "telefono": "8248-4839",
+    "correo": "marco.ramirez38@correo.com",
+    "direccion": "Heredia, frente al parque",
+    "activo": false
+  },
+  {
+    "nombre": "Javier",
+    "apellido": "Torres",
+    "telefono": "8280-1282",
+    "correo": "javier.torres39@correo.com",
+    "direccion": "Desamparados, 100 m norte",
+    "activo": true
+  },
+  {
+    "nombre": "Esteban",
+    "apellido": "Morales",
+    "telefono": "8344-8822",
+    "correo": "esteban.morales40@correo.com",
+    "direccion": "Goicoechea, 50 m sur de la iglesia",
+    "activo": false
+  },
+  {
+    "nombre": "Andrea",
+    "apellido": "Vargas",
+    "telefono": "8658-3909",
+    "correo": "andrea.vargas41@correo.com",
+    "direccion": "Goicoechea, 50 m sur de la iglesia",
+    "activo": true
+  },
+  {
+    "nombre": "Melissa",
+    "apellido": "Castro",
+    "telefono": "8195-8859",
+    "correo": "melissa.castro42@correo.com",
+    "direccion": "Escazú, del súper 200 m este",
+    "activo": false
+  },
+  {
+    "nombre": "Tatiana",
+    "apellido": "Rojas",
+    "telefono": "8524-1510",
+    "correo": "tatiana.rojas43@correo.com",
+    "direccion": "Escazú, 50 m sur de la iglesia",
+    "activo": true
+  },
+  {
+    "nombre": "Allison",
+    "apellido": "Navarro",
+    "telefono": "8103-7342",
+    "correo": "allison.navarro44@correo.com",
+    "direccion": "Tibás, centro",
+    "activo": true
+  },
+  {
+    "nombre": "Karla",
+    "apellido": "Mora",
+    "telefono": "8577-5768",
+    "correo": "karla.mora45@correo.com",
+    "direccion": "Escazú, centro",
+    "activo": true
+  },
+  {
+    "nombre": "Verónica",
+    "apellido": "Herrera",
+    "telefono": "8884-7683",
+    "correo": "veronica.herrera46@correo.com",
+    "direccion": "Tibás, centro",
+    "activo": true
+  },
+  {
+    "nombre": "Patricia",
+    "apellido": "Jiménez",
+    "telefono": "8210-2808",
+    "correo": "patricia.jimenez47@correo.com",
+    "direccion": "Desamparados, 100 m norte",
+    "activo": true
+  },
+  {
+    "nombre": "Ashley",
+    "apellido": "Chaves",
+    "telefono": "8187-1479",
+    "correo": "ashley.chaves48@correo.com",
+    "direccion": "Heredia, frente al parque",
+    "activo": true
+  },
+  {
+    "nombre": "Fabiola",
+    "apellido": "Solís",
+    "telefono": "8104-1076",
+    "correo": "fabiola.solis49@correo.com",
+    "direccion": "San Rafael, del súper 200 m este",
+    "activo": true
+  },
+  {
+    "nombre": "Noelia",
+    "apellido": "Araya",
+    "telefono": "8453-1115",
+    "correo": "noelia.araya50@correo.com",
+    "direccion": "Curridabat, frente al parque",
+    "activo": true
+  }
+]

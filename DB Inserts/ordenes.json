@@ -1,0 +1,1410 @@
+[
+  {
+    "cliente": {
+      "$oid": "69d5b9d8bbcb20195b4b85be"
+    },
+    "productos": [
+      {
+        "producto": {
+          "$oid": "69d5bc92bbcb20195b4b86c7"
+        },
+        "cantidad": 2
+      },
+      {
+        "producto": {
+          "$oid": "69d5bc92bbcb20195b4b86a7"
+        },
+        "cantidad": 1
+      },
+      {
+        "producto": {
+          "$oid": "69d5bc92bbcb20195b4b86c6"
+        },
+        "cantidad": 1
+      },
+      {
+        "producto": {
+          "$oid": "69d5bc92bbcb20195b4b869b"
+        },
+        "cantidad": 3
+      }
+    ],
+    "cantidadTotal": 7,
+    "totalPagar": {
+      "$numberDouble": "56550.0"
+    },
+    "estadoOrden": "Entregada",
+    "metodoPago": "Tarjeta",
+    "observaciones": "Empaque para regalo"
+  },
+  {
+    "cliente": {
+      "$oid": "69d5b9d8bbcb20195b4b85bf"
+    },
+    "productos": [
+      {
+        "producto": {
+          "$oid": "69d5bc92bbcb20195b4b86a1"
+        },
+        "cantidad": 2
+      },
+      {
+        "producto": {
+          "$oid": "69d5bc92bbcb20195b4b86b8"
+        },
+        "cantidad": 3
+      }
+    ],
+    "cantidadTotal": 5,
+    "totalPagar": {
+      "$numberDouble": "29500.0"
+    },
+    "estadoOrden": "Lista",
+    "metodoPago": "Tarjeta",
+    "observaciones": "Entregar en la tarde"
+  },
+  {
+    "cliente": {
+      "$oid": "69d5b9d8bbcb20195b4b85c0"
+    },
+    "productos": [
+      {
+        "producto": {
+          "$oid": "69d5bc92bbcb20195b4b86ba"
+        },
+        "cantidad": 2
+      }
+    ],
+    "cantidadTotal": 2,
+    "totalPagar": {
+      "$numberDouble": "25000.0"
+    },
+    "estadoOrden": "Cancelada",
+    "metodoPago": "Efectivo",
+    "observaciones": "Agregar dedicatoria"
+  },
+  {
+    "cliente": {
+      "$oid": "69d5b9d8bbcb20195b4b85c1"
+    },
+    "productos": [
+      {
+        "producto": {
+          "$oid": "69d5bc92bbcb20195b4b86b3"
+        },
+        "cantidad": 2
+      },
+      {
+        "producto": {
+          "$oid": "69d5bc92bbcb20195b4b8698"
+        },
+        "cantidad": 3
+      },
+      {
+        "producto": {
+          "$oid": "69d5bc92bbcb20195b4b86c3"
+        },
+        "cantidad": 3
+      },
+      {
+        "producto": {
+          "$oid": "69d5bc92bbcb20195b4b86c5"
+        },
+        "cantidad": 1
+      }
+    ],
+    "cantidadTotal": 9,
+    "totalPagar": {
+      "$numberDouble": "46050.0"
+    },
+    "estadoOrden": "Entregada",
+    "metodoPago": "Efectivo",
+    "observaciones": "Sin observaciones"
+  },
+  {
+    "cliente": {
+      "$oid": "69d5b9d8bbcb20195b4b85c2"
+    },
+    "productos": [
+      {
+        "producto": {
+          "$oid": "69d5bc92bbcb20195b4b86c9"
+        },
+        "cantidad": 2
+      }
+    ],
+    "cantidadTotal": 2,
+    "totalPagar": {
+      "$numberDouble": "17800.0"
+    },
+    "estadoOrden": "En preparación",
+    "metodoPago": "Tarjeta",
+    "observaciones": "Agregar dedicatoria"
+  },
+  {
+    "cliente": {
+      "$oid": "69d5b9d8bbcb20195b4b85c3"
+    },
+    "productos": [
+      {
+        "producto": {
+          "$oid": "69d5bc92bbcb20195b4b869d"
+        },
+        "cantidad": 1
+      },
+      {
+        "producto": {
+          "$oid": "69d5bc92bbcb20195b4b86ac"
+        },
+        "cantidad": 3
+      }
+    ],
+    "cantidadTotal": 4,
+    "totalPagar": {
+      "$numberDouble": "49100.0"
+    },
+    "estadoOrden": "Pendiente",
+    "metodoPago": "Efectivo",
+    "observaciones": "Entregar en la tarde"
+  },
+  {
+    "cliente": {
+      "$oid": "69d5b9d8bbcb20195b4b85c4"
+    },
+    "productos": [
+      {
+        "producto": {
+          "$oid": "69d5bc92bbcb20195b4b86a6"
+        },
+        "cantidad": 1
+      },
+      {
+        "producto": {
+          "$oid": "69d5bc92bbcb20195b4b86c0"
+        },
+        "cantidad": 1
+      },
+      {
+        "producto": {
+          "$oid": "69d5bc92bbcb20195b4b86c3"
+        },
+        "cantidad": 2
+      },
+      {
+        "producto": {
+          "$oid": "69d5bc92bbcb20195b4b86c5"
+        },
+        "cantidad": 2
+      }
+    ],
+    "cantidadTotal": 6,
+    "totalPagar": {
+      "$numberDouble": "8200.0"
+    },
+    "estadoOrden": "Cancelada",
+    "metodoPago": "Sinpe Móvil",
+    "observaciones": "Agregar dedicatoria"
+  },
+  {
+    "cliente": {
+      "$oid": "69d5b9d8bbcb20195b4b85c5"
+    },
+    "productos": [
+      {
+        "producto": {
+          "$oid": "69d5bc92bbcb20195b4b8699"
+        },
+        "cantidad": 1
+      },
+      {
+        "producto": {
+          "$oid": "69d5bc92bbcb20195b4b869d"
+        },
+        "cantidad": 1
+      }
+    ],
+    "cantidadTotal": 2,
+    "totalPagar": {
+      "$numberDouble": "21350.0"
+    },
+    "estadoOrden": "En preparación",
+    "metodoPago": "Sinpe Móvil",
+    "observaciones": "Entregar en la tarde"
+  },
+  {
+    "cliente": {
+      "$oid": "69d5b9d8bbcb20195b4b85c6"
+    },
+    "productos": [
+      {
+        "producto": {
+          "$oid": "69d5bc92bbcb20195b4b86c4"
+        },
+        "cantidad": 3
+      },
+      {
+        "producto": {
+          "$oid": "69d5bc92bbcb20195b4b869a"
+        },
+        "cantidad": 2
+      },
+      {
+        "producto": {
+          "$oid": "69d5bc92bbcb20195b4b86ba"
+        },
+        "cantidad": 3
+      }
+    ],
+    "cantidadTotal": 8,
+    "totalPagar": {
+      "$numberDouble": "69400.0"
+    },
+    "estadoOrden": "Cancelada",
+    "metodoPago": "Tarjeta",
+    "observaciones": "Empaque para regalo"
+  },
+  {
+    "cliente": {
+      "$oid": "69d5b9d8bbcb20195b4b85c7"
+    },
+    "productos": [
+      {
+        "producto": {
+          "$oid": "69d5bc92bbcb20195b4b86bb"
+        },
+        "cantidad": 1
+      }
+    ],
+    "cantidadTotal": 1,
+    "totalPagar": {
+      "$numberDouble": "12200.0"
+    },
+    "estadoOrden": "Cancelada",
+    "metodoPago": "Transferencia",
+    "observaciones": "Entregar en la tarde"
+  },
+  {
+    "cliente": {
+      "$oid": "69d5b9d8bbcb20195b4b85c8"
+    },
+    "productos": [
+      {
+        "producto": {
+          "$oid": "69d5bc92bbcb20195b4b86a6"
+        },
+        "cantidad": 1
+      }
+    ],
+    "cantidadTotal": 1,
+    "totalPagar": {
+      "$numberDouble": "1950.0"
+    },
+    "estadoOrden": "En preparación",
+    "metodoPago": "Tarjeta",
+    "observaciones": "Entregar en la tarde"
+  },
+  {
+    "cliente": {
+      "$oid": "69d5b9d8bbcb20195b4b85c9"
+    },
+    "productos": [
+      {
+        "producto": {
+          "$oid": "69d5bc92bbcb20195b4b86a6"
+        },
+        "cantidad": 2
+      },
+      {
+        "producto": {
+          "$oid": "69d5bc92bbcb20195b4b86bf"
+        },
+        "cantidad": 2
+      },
+      {
+        "producto": {
+          "$oid": "69d5bc92bbcb20195b4b86c5"
+        },
+        "cantidad": 2
+      }
+    ],
+    "cantidadTotal": 6,
+    "totalPagar": {
+      "$numberDouble": "24900.0"
+    },
+    "estadoOrden": "Pendiente",
+    "metodoPago": "Sinpe Móvil",
+    "observaciones": "Agregar dedicatoria"
+  },
+  {
+    "cliente": {
+      "$oid": "69d5b9d8bbcb20195b4b85ca"
+    },
+    "productos": [
+      {
+        "producto": {
+          "$oid": "69d5bc92bbcb20195b4b86a0"
+        },
+        "cantidad": 1
+      },
+      {
+        "producto": {
+          "$oid": "69d5bc92bbcb20195b4b86b1"
+        },
+        "cantidad": 3
+      },
+      {
+        "producto": {
+          "$oid": "69d5bc92bbcb20195b4b86a2"
+        },
+        "cantidad": 2
+      },
+      {
+        "producto": {
+          "$oid": "69d5bc92bbcb20195b4b86af"
+        },
+        "cantidad": 3
+      }
+    ],
+    "cantidadTotal": 9,
+    "totalPagar": {
+      "$numberDouble": "12450.0"
+    },
+    "estadoOrden": "En preparación",
+    "metodoPago": "Efectivo",
+    "observaciones": "Sin azúcar extra"
+  },
+  {
+    "cliente": {
+      "$oid": "69d5b9d8bbcb20195b4b85cb"
+    },
+    "productos": [
+      {
+        "producto": {
+          "$oid": "69d5bc92bbcb20195b4b86aa"
+        },
+        "cantidad": 1
+      },
+      {
+        "producto": {
+          "$oid": "69d5bc92bbcb20195b4b86c7"
+        },
+        "cantidad": 3
+      },
+      {
+        "producto": {
+          "$oid": "69d5bc92bbcb20195b4b86b6"
+        },
+        "cantidad": 2
+      }
+    ],
+    "cantidadTotal": 6,
+    "totalPagar": {
+      "$numberDouble": "24300.0"
+    },
+    "estadoOrden": "Cancelada",
+    "metodoPago": "Sinpe Móvil",
+    "observaciones": "Entregar en la tarde"
+  },
+  {
+    "cliente": {
+      "$oid": "69d5b9d8bbcb20195b4b85cc"
+    },
+    "productos": [
+      {
+        "producto": {
+          "$oid": "69d5bc92bbcb20195b4b86a3"
+        },
+        "cantidad": 2
+      }
+    ],
+    "cantidadTotal": 2,
+    "totalPagar": {
+      "$numberDouble": "2400.0"
+    },
+    "estadoOrden": "Pendiente",
+    "metodoPago": "Transferencia",
+    "observaciones": "Sin observaciones"
+  },
+  {
+    "cliente": {
+      "$oid": "69d5b9d8bbcb20195b4b85cd"
+    },
+    "productos": [
+      {
+        "producto": {
+          "$oid": "69d5bc92bbcb20195b4b86b5"
+        },
+        "cantidad": 1
+      },
+      {
+        "producto": {
+          "$oid": "69d5bc92bbcb20195b4b869e"
+        },
+        "cantidad": 1
+      },
+      {
+        "producto": {
+          "$oid": "69d5bc92bbcb20195b4b86b0"
+        },
+        "cantidad": 2
+      },
+      {
+        "producto": {
+          "$oid": "69d5bc92bbcb20195b4b86b6"
+        },
+        "cantidad": 2
+      }
+    ],
+    "cantidadTotal": 6,
+    "totalPagar": {
+      "$numberDouble": "9550.0"
+    },
+    "estadoOrden": "Cancelada",
+    "metodoPago": "Sinpe Móvil",
+    "observaciones": "Empaque para regalo"
+  },
+  {
+    "cliente": {
+      "$oid": "69d5b9d8bbcb20195b4b85ce"
+    },
+    "productos": [
+      {
+        "producto": {
+          "$oid": "69d5bc92bbcb20195b4b86c6"
+        },
+        "cantidad": 1
+      },
+      {
+        "producto": {
+          "$oid": "69d5bc92bbcb20195b4b86a6"
+        },
+        "cantidad": 1
+      }
+    ],
+    "cantidadTotal": 2,
+    "totalPagar": {
+      "$numberDouble": "3850.0"
+    },
+    "estadoOrden": "En preparación",
+    "metodoPago": "Tarjeta",
+    "observaciones": "Empaque para regalo"
+  },
+  {
+    "cliente": {
+      "$oid": "69d5b9d8bbcb20195b4b85cf"
+    },
+    "productos": [
+      {
+        "producto": {
+          "$oid": "69d5bc92bbcb20195b4b86a3"
+        },
+        "cantidad": 3
+      }
+    ],
+    "cantidadTotal": 3,
+    "totalPagar": {
+      "$numberDouble": "3600.0"
+    },
+    "estadoOrden": "Cancelada",
+    "metodoPago": "Efectivo",
+    "observaciones": "Sin observaciones"
+  },
+  {
+    "cliente": {
+      "$oid": "69d5b9d8bbcb20195b4b85d0"
+    },
+    "productos": [
+      {
+        "producto": {
+          "$oid": "69d5bc92bbcb20195b4b86ab"
+        },
+        "cantidad": 2
+      },
+      {
+        "producto": {
+          "$oid": "69d5bc92bbcb20195b4b86be"
+        },
+        "cantidad": 1
+      }
+    ],
+    "cantidadTotal": 3,
+    "totalPagar": {
+      "$numberDouble": "39600.0"
+    },
+    "estadoOrden": "Cancelada",
+    "metodoPago": "Tarjeta",
+    "observaciones": "Agregar dedicatoria"
+  },
+  {
+    "cliente": {
+      "$oid": "69d5b9d8bbcb20195b4b85d1"
+    },
+    "productos": [
+      {
+        "producto": {
+          "$oid": "69d5bc92bbcb20195b4b86be"
+        },
+        "cantidad": 1
+      },
+      {
+        "producto": {
+          "$oid": "69d5bc92bbcb20195b4b86b9"
+        },
+        "cantidad": 1
+      },
+      {
+        "producto": {
+          "$oid": "69d5bc92bbcb20195b4b86aa"
+        },
+        "cantidad": 3
+      }
+    ],
+    "cantidadTotal": 5,
+    "totalPagar": {
+      "$numberDouble": "56200.0"
+    },
+    "estadoOrden": "En preparación",
+    "metodoPago": "Sinpe Móvil",
+    "observaciones": "Entregar en la tarde"
+  },
+  {
+    "cliente": {
+      "$oid": "69d5b9d8bbcb20195b4b85d2"
+    },
+    "productos": [
+      {
+        "producto": {
+          "$oid": "69d5bc92bbcb20195b4b86b6"
+        },
+        "cantidad": 2
+      },
+      {
+        "producto": {
+          "$oid": "69d5bc92bbcb20195b4b86af"
+        },
+        "cantidad": 1
+      },
+      {
+        "producto": {
+          "$oid": "69d5bc92bbcb20195b4b86c5"
+        },
+        "cantidad": 3
+      }
+    ],
+    "cantidadTotal": 6,
+    "totalPagar": {
+      "$numberDouble": "9900.0"
+    },
+    "estadoOrden": "En preparación",
+    "metodoPago": "Tarjeta",
+    "observaciones": "Agregar dedicatoria"
+  },
+  {
+    "cliente": {
+      "$oid": "69d5b9d8bbcb20195b4b85d3"
+    },
+    "productos": [
+      {
+        "producto": {
+          "$oid": "69d5bc92bbcb20195b4b86c1"
+        },
+        "cantidad": 3
+      },
+      {
+        "producto": {
+          "$oid": "69d5bc92bbcb20195b4b86c9"
+        },
+        "cantidad": 1
+      },
+      {
+        "producto": {
+          "$oid": "69d5bc92bbcb20195b4b86b5"
+        },
+        "cantidad": 2
+      }
+    ],
+    "cantidadTotal": 6,
+    "totalPagar": {
+      "$numberDouble": "16100.0"
+    },
+    "estadoOrden": "Cancelada",
+    "metodoPago": "Transferencia",
+    "observaciones": "Agregar dedicatoria"
+  },
+  {
+    "cliente": {
+      "$oid": "69d5b9d8bbcb20195b4b85d4"
+    },
+    "productos": [
+      {
+        "producto": {
+          "$oid": "69d5bc92bbcb20195b4b869b"
+        },
+        "cantidad": 3
+      },
+      {
+        "producto": {
+          "$oid": "69d5bc92bbcb20195b4b86c2"
+        },
+        "cantidad": 3
+      }
+    ],
+    "cantidadTotal": 6,
+    "totalPagar": {
+      "$numberDouble": "44400.0"
+    },
+    "estadoOrden": "Lista",
+    "metodoPago": "Tarjeta",
+    "observaciones": "Entregar en la tarde"
+  },
+  {
+    "cliente": {
+      "$oid": "69d5b9d8bbcb20195b4b85d5"
+    },
+    "productos": [
+      {
+        "producto": {
+          "$oid": "69d5bc92bbcb20195b4b8699"
+        },
+        "cantidad": 1
+      }
+    ],
+    "cantidadTotal": 1,
+    "totalPagar": {
+      "$numberDouble": "12300.0"
+    },
+    "estadoOrden": "Cancelada",
+    "metodoPago": "Transferencia",
+    "observaciones": "Entregar en la tarde"
+  },
+  {
+    "cliente": {
+      "$oid": "69d5b9d8bbcb20195b4b85d6"
+    },
+    "productos": [
+      {
+        "producto": {
+          "$oid": "69d5bc92bbcb20195b4b86ac"
+        },
+        "cantidad": 3
+      },
+      {
+        "producto": {
+          "$oid": "69d5bc92bbcb20195b4b86b2"
+        },
+        "cantidad": 2
+      }
+    ],
+    "cantidadTotal": 5,
+    "totalPagar": {
+      "$numberDouble": "42250.0"
+    },
+    "estadoOrden": "Lista",
+    "metodoPago": "Efectivo",
+    "observaciones": "Sin observaciones"
+  },
+  {
+    "cliente": {
+      "$oid": "69d5b9d8bbcb20195b4b85d7"
+    },
+    "productos": [
+      {
+        "producto": {
+          "$oid": "69d5bc92bbcb20195b4b86b6"
+        },
+        "cantidad": 3
+      },
+      {
+        "producto": {
+          "$oid": "69d5bc92bbcb20195b4b86a7"
+        },
+        "cantidad": 3
+      },
+      {
+        "producto": {
+          "$oid": "69d5bc92bbcb20195b4b86be"
+        },
+        "cantidad": 2
+      }
+    ],
+    "cantidadTotal": 8,
+    "totalPagar": {
+      "$numberDouble": "52900.0"
+    },
+    "estadoOrden": "Pendiente",
+    "metodoPago": "Sinpe Móvil",
+    "observaciones": "Empaque para regalo"
+  },
+  {
+    "cliente": {
+      "$oid": "69d5b9d8bbcb20195b4b85d8"
+    },
+    "productos": [
+      {
+        "producto": {
+          "$oid": "69d5bc92bbcb20195b4b86a1"
+        },
+        "cantidad": 1
+      }
+    ],
+    "cantidadTotal": 1,
+    "totalPagar": {
+      "$numberDouble": "1250.0"
+    },
+    "estadoOrden": "En preparación",
+    "metodoPago": "Sinpe Móvil",
+    "observaciones": "Entregar en la tarde"
+  },
+  {
+    "cliente": {
+      "$oid": "69d5b9d8bbcb20195b4b85d9"
+    },
+    "productos": [
+      {
+        "producto": {
+          "$oid": "69d5bc92bbcb20195b4b86c2"
+        },
+        "cantidad": 1
+      },
+      {
+        "producto": {
+          "$oid": "69d5bc92bbcb20195b4b86c8"
+        },
+        "cantidad": 1
+      },
+      {
+        "producto": {
+          "$oid": "69d5bc92bbcb20195b4b86c4"
+        },
+        "cantidad": 1
+      }
+    ],
+    "cantidadTotal": 3,
+    "totalPagar": {
+      "$numberDouble": "4450.0"
+    },
+    "estadoOrden": "Cancelada",
+    "metodoPago": "Tarjeta",
+    "observaciones": "Agregar dedicatoria"
+  },
+  {
+    "cliente": {
+      "$oid": "69d5b9d8bbcb20195b4b85da"
+    },
+    "productos": [
+      {
+        "producto": {
+          "$oid": "69d5bc92bbcb20195b4b869f"
+        },
+        "cantidad": 1
+      },
+      {
+        "producto": {
+          "$oid": "69d5bc92bbcb20195b4b86ab"
+        },
+        "cantidad": 2
+      }
+    ],
+    "cantidadTotal": 3,
+    "totalPagar": {
+      "$numberDouble": "30950.0"
+    },
+    "estadoOrden": "En preparación",
+    "metodoPago": "Sinpe Móvil",
+    "observaciones": "Sin azúcar extra"
+  },
+  {
+    "cliente": {
+      "$oid": "69d5b9d8bbcb20195b4b85db"
+    },
+    "productos": [
+      {
+        "producto": {
+          "$oid": "69d5bc92bbcb20195b4b86c2"
+        },
+        "cantidad": 3
+      }
+    ],
+    "cantidadTotal": 3,
+    "totalPagar": {
+      "$numberDouble": "4050.0"
+    },
+    "estadoOrden": "Entregada",
+    "metodoPago": "Sinpe Móvil",
+    "observaciones": "Agregar dedicatoria"
+  },
+  {
+    "cliente": {
+      "$oid": "69d5b9d8bbcb20195b4b85dc"
+    },
+    "productos": [
+      {
+        "producto": {
+          "$oid": "69d5bc92bbcb20195b4b86b1"
+        },
+        "cantidad": 2
+      },
+      {
+        "producto": {
+          "$oid": "69d5bc92bbcb20195b4b86b9"
+        },
+        "cantidad": 1
+      },
+      {
+        "producto": {
+          "$oid": "69d5bc92bbcb20195b4b86bf"
+        },
+        "cantidad": 1
+      }
+    ],
+    "cantidadTotal": 4,
+    "totalPagar": {
+      "$numberDouble": "23150.0"
+    },
+    "estadoOrden": "Cancelada",
+    "metodoPago": "Transferencia",
+    "observaciones": "Entregar en la tarde"
+  },
+  {
+    "cliente": {
+      "$oid": "69d5b9d8bbcb20195b4b85dd"
+    },
+    "productos": [
+      {
+        "producto": {
+          "$oid": "69d5bc92bbcb20195b4b86b2"
+        },
+        "cantidad": 3
+      },
+      {
+        "producto": {
+          "$oid": "69d5bc92bbcb20195b4b8699"
+        },
+        "cantidad": 3
+      },
+      {
+        "producto": {
+          "$oid": "69d5bc92bbcb20195b4b86a4"
+        },
+        "cantidad": 1
+      }
+    ],
+    "cantidadTotal": 7,
+    "totalPagar": {
+      "$numberDouble": "41600.0"
+    },
+    "estadoOrden": "Cancelada",
+    "metodoPago": "Efectivo",
+    "observaciones": "Empaque para regalo"
+  },
+  {
+    "cliente": {
+      "$oid": "69d5b9d8bbcb20195b4b85de"
+    },
+    "productos": [
+      {
+        "producto": {
+          "$oid": "69d5bc92bbcb20195b4b86bc"
+        },
+        "cantidad": 3
+      }
+    ],
+    "cantidadTotal": 3,
+    "totalPagar": {
+      "$numberDouble": "44700.0"
+    },
+    "estadoOrden": "Lista",
+    "metodoPago": "Tarjeta",
+    "observaciones": "Entregar en la tarde"
+  },
+  {
+    "cliente": {
+      "$oid": "69d5b9d8bbcb20195b4b85df"
+    },
+    "productos": [
+      {
+        "producto": {
+          "$oid": "69d5bc92bbcb20195b4b86a1"
+        },
+        "cantidad": 3
+      }
+    ],
+    "cantidadTotal": 3,
+    "totalPagar": {
+      "$numberDouble": "3750.0"
+    },
+    "estadoOrden": "Cancelada",
+    "metodoPago": "Tarjeta",
+    "observaciones": "Agregar dedicatoria"
+  },
+  {
+    "cliente": {
+      "$oid": "69d5b9d8bbcb20195b4b85e0"
+    },
+    "productos": [
+      {
+        "producto": {
+          "$oid": "69d5bc92bbcb20195b4b86bc"
+        },
+        "cantidad": 1
+      }
+    ],
+    "cantidadTotal": 1,
+    "totalPagar": {
+      "$numberDouble": "14900.0"
+    },
+    "estadoOrden": "En preparación",
+    "metodoPago": "Efectivo",
+    "observaciones": "Agregar dedicatoria"
+  },
+  {
+    "cliente": {
+      "$oid": "69d5b9d8bbcb20195b4b85e1"
+    },
+    "productos": [
+      {
+        "producto": {
+          "$oid": "69d5bc92bbcb20195b4b86c6"
+        },
+        "cantidad": 3
+      },
+      {
+        "producto": {
+          "$oid": "69d5bc92bbcb20195b4b86a7"
+        },
+        "cantidad": 1
+      },
+      {
+        "producto": {
+          "$oid": "69d5bc92bbcb20195b4b86aa"
+        },
+        "cantidad": 2
+      }
+    ],
+    "cantidadTotal": 6,
+    "totalPagar": {
+      "$numberDouble": "38200.0"
+    },
+    "estadoOrden": "Pendiente",
+    "metodoPago": "Transferencia",
+    "observaciones": "Empaque para regalo"
+  },
+  {
+    "cliente": {
+      "$oid": "69d5b9d8bbcb20195b4b85e2"
+    },
+    "productos": [
+      {
+        "producto": {
+          "$oid": "69d5bc92bbcb20195b4b86a6"
+        },
+        "cantidad": 1
+      }
+    ],
+    "cantidadTotal": 1,
+    "totalPagar": {
+      "$numberDouble": "1950.0"
+    },
+    "estadoOrden": "Lista",
+    "metodoPago": "Tarjeta",
+    "observaciones": "Agregar dedicatoria"
+  },
+  {
+    "cliente": {
+      "$oid": "69d5b9d8bbcb20195b4b85e3"
+    },
+    "productos": [
+      {
+        "producto": {
+          "$oid": "69d5bc92bbcb20195b4b86ac"
+        },
+        "cantidad": 3
+      },
+      {
+        "producto": {
+          "$oid": "69d5bc92bbcb20195b4b86a4"
+        },
+        "cantidad": 3
+      }
+    ],
+    "cantidadTotal": 6,
+    "totalPagar": {
+      "$numberDouble": "44250.0"
+    },
+    "estadoOrden": "En preparación",
+    "metodoPago": "Transferencia",
+    "observaciones": "Agregar dedicatoria"
+  },
+  {
+    "cliente": {
+      "$oid": "69d5b9d8bbcb20195b4b85e4"
+    },
+    "productos": [
+      {
+        "producto": {
+          "$oid": "69d5bc92bbcb20195b4b86c1"
+        },
+        "cantidad": 2
+      },
+      {
+        "producto": {
+          "$oid": "69d5bc92bbcb20195b4b86a0"
+        },
+        "cantidad": 2
+      }
+    ],
+    "cantidadTotal": 4,
+    "totalPagar": {
+      "$numberDouble": "5600.0"
+    },
+    "estadoOrden": "Cancelada",
+    "metodoPago": "Tarjeta",
+    "observaciones": "Empaque para regalo"
+  },
+  {
+    "cliente": {
+      "$oid": "69d5b9d8bbcb20195b4b85e5"
+    },
+    "productos": [
+      {
+        "producto": {
+          "$oid": "69d5bc92bbcb20195b4b86ba"
+        },
+        "cantidad": 3
+      },
+      {
+        "producto": {
+          "$oid": "69d5bc92bbcb20195b4b869d"
+        },
+        "cantidad": 1
+      },
+      {
+        "producto": {
+          "$oid": "69d5bc92bbcb20195b4b86a6"
+        },
+        "cantidad": 1
+      },
+      {
+        "producto": {
+          "$oid": "69d5bc92bbcb20195b4b86a0"
+        },
+        "cantidad": 2
+      }
+    ],
+    "cantidadTotal": 7,
+    "totalPagar": {
+      "$numberDouble": "51500.0"
+    },
+    "estadoOrden": "En preparación",
+    "metodoPago": "Tarjeta",
+    "observaciones": "Sin observaciones"
+  },
+  {
+    "cliente": {
+      "$oid": "69d5b9d8bbcb20195b4b85e6"
+    },
+    "productos": [
+      {
+        "producto": {
+          "$oid": "69d5bc92bbcb20195b4b86bc"
+        },
+        "cantidad": 2
+      },
+      {
+        "producto": {
+          "$oid": "69d5bc92bbcb20195b4b86aa"
+        },
+        "cantidad": 2
+      },
+      {
+        "producto": {
+          "$oid": "69d5bc92bbcb20195b4b86a8"
+        },
+        "cantidad": 1
+      },
+      {
+        "producto": {
+          "$oid": "69d5bc92bbcb20195b4b86a5"
+        },
+        "cantidad": 3
+      }
+    ],
+    "cantidadTotal": 8,
+    "totalPagar": {
+      "$numberDouble": "72000.0"
+    },
+    "estadoOrden": "Lista",
+    "metodoPago": "Sinpe Móvil",
+    "observaciones": "Empaque para regalo"
+  },
+  {
+    "cliente": {
+      "$oid": "69d5b9d8bbcb20195b4b85e7"
+    },
+    "productos": [
+      {
+        "producto": {
+          "$oid": "69d5bc92bbcb20195b4b86ba"
+        },
+        "cantidad": 1
+      },
+      {
+        "producto": {
+          "$oid": "69d5bc92bbcb20195b4b869b"
+        },
+        "cantidad": 1
+      }
+    ],
+    "cantidadTotal": 2,
+    "totalPagar": {
+      "$numberDouble": "25950.0"
+    },
+    "estadoOrden": "Lista",
+    "metodoPago": "Transferencia",
+    "observaciones": "Sin observaciones"
+  },
+  {
+    "cliente": {
+      "$oid": "69d5b9d8bbcb20195b4b85e8"
+    },
+    "productos": [
+      {
+        "producto": {
+          "$oid": "69d5bc92bbcb20195b4b869e"
+        },
+        "cantidad": 2
+      },
+      {
+        "producto": {
+          "$oid": "69d5bc92bbcb20195b4b86ae"
+        },
+        "cantidad": 2
+      },
+      {
+        "producto": {
+          "$oid": "69d5bc92bbcb20195b4b86be"
+        },
+        "cantidad": 3
+      },
+      {
+        "producto": {
+          "$oid": "69d5bc92bbcb20195b4b86c4"
+        },
+        "cantidad": 3
+      }
+    ],
+    "cantidadTotal": 10,
+    "totalPagar": {
+      "$numberDouble": "52000.0"
+    },
+    "estadoOrden": "Entregada",
+    "metodoPago": "Efectivo",
+    "observaciones": "Agregar dedicatoria"
+  },
+  {
+    "cliente": {
+      "$oid": "69d5b9d8bbcb20195b4b85e9"
+    },
+    "productos": [
+      {
+        "producto": {
+          "$oid": "69d5bc92bbcb20195b4b86c9"
+        },
+        "cantidad": 3
+      }
+    ],
+    "cantidadTotal": 3,
+    "totalPagar": {
+      "$numberDouble": "26700.0"
+    },
+    "estadoOrden": "Cancelada",
+    "metodoPago": "Transferencia",
+    "observaciones": "Agregar dedicatoria"
+  },
+  {
+    "cliente": {
+      "$oid": "69d5b9d8bbcb20195b4b85ea"
+    },
+    "productos": [
+      {
+        "producto": {
+          "$oid": "69d5bc92bbcb20195b4b86b0"
+        },
+        "cantidad": 1
+      },
+      {
+        "producto": {
+          "$oid": "69d5bc92bbcb20195b4b86b8"
+        },
+        "cantidad": 1
+      },
+      {
+        "producto": {
+          "$oid": "69d5bc92bbcb20195b4b86ad"
+        },
+        "cantidad": 3
+      },
+      {
+        "producto": {
+          "$oid": "69d5bc92bbcb20195b4b86b7"
+        },
+        "cantidad": 1
+      }
+    ],
+    "cantidadTotal": 6,
+    "totalPagar": {
+      "$numberDouble": "41350.0"
+    },
+    "estadoOrden": "Pendiente",
+    "metodoPago": "Efectivo",
+    "observaciones": "Agregar dedicatoria"
+  },
+  {
+    "cliente": {
+      "$oid": "69d5b9d8bbcb20195b4b85eb"
+    },
+    "productos": [
+      {
+        "producto": {
+          "$oid": "69d5bc92bbcb20195b4b86a7"
+        },
+        "cantidad": 1
+      },
+      {
+        "producto": {
+          "$oid": "69d5bc92bbcb20195b4b86bc"
+        },
+        "cantidad": 2
+      },
+      {
+        "producto": {
+          "$oid": "69d5bc92bbcb20195b4b86c2"
+        },
+        "cantidad": 3
+      },
+      {
+        "producto": {
+          "$oid": "69d5bc92bbcb20195b4b86b5"
+        },
+        "cantidad": 3
+      }
+    ],
+    "cantidadTotal": 9,
+    "totalPagar": {
+      "$numberDouble": "47700.0"
+    },
+    "estadoOrden": "En preparación",
+    "metodoPago": "Sinpe Móvil",
+    "observaciones": "Empaque para regalo"
+  },
+  {
+    "cliente": {
+      "$oid": "69d5b9d8bbcb20195b4b85ec"
+    },
+    "productos": [
+      {
+        "producto": {
+          "$oid": "69d5bc92bbcb20195b4b86c8"
+        },
+        "cantidad": 3
+      },
+      {
+        "producto": {
+          "$oid": "69d5bc92bbcb20195b4b86b3"
+        },
+        "cantidad": 3
+      },
+      {
+        "producto": {
+          "$oid": "69d5bc92bbcb20195b4b86bb"
+        },
+        "cantidad": 2
+      },
+      {
+        "producto": {
+          "$oid": "69d5bc92bbcb20195b4b86a5"
+        },
+        "cantidad": 2
+      }
+    ],
+    "cantidadTotal": 10,
+    "totalPagar": {
+      "$numberDouble": "40300.0"
+    },
+    "estadoOrden": "Cancelada",
+    "metodoPago": "Sinpe Móvil",
+    "observaciones": "Entregar en la tarde"
+  },
+  {
+    "cliente": {
+      "$oid": "69d5b9d8bbcb20195b4b85ed"
+    },
+    "productos": [
+      {
+        "producto": {
+          "$oid": "69d5bc92bbcb20195b4b869e"
+        },
+        "cantidad": 1
+      },
+      {
+        "producto": {
+          "$oid": "69d5bc92bbcb20195b4b86a9"
+        },
+        "cantidad": 1
+      },
+      {
+        "producto": {
+          "$oid": "69d5bc92bbcb20195b4b86c6"
+        },
+        "cantidad": 3
+      }
+    ],
+    "cantidadTotal": 5,
+    "totalPagar": {
+      "$numberDouble": "19650.0"
+    },
+    "estadoOrden": "Lista",
+    "metodoPago": "Sinpe Móvil",
+    "observaciones": "Empaque para regalo"
+  },
+  {
+    "cliente": {
+      "$oid": "69d5b9d8bbcb20195b4b85ee"
+    },
+    "productos": [
+      {
+        "producto": {
+          "$oid": "69d5bc92bbcb20195b4b86af"
+        },
+        "cantidad": 1
+      }
+    ],
+    "cantidadTotal": 1,
+    "totalPagar": {
+      "$numberDouble": "1450.0"
+    },
+    "estadoOrden": "En preparación",
+    "metodoPago": "Efectivo",
+    "observaciones": "Agregar dedicatoria"
+  },
+  {
+    "cliente": {
+      "$oid": "69d5b9d8bbcb20195b4b85ef"
+    },
+    "productos": [
+      {
+        "producto": {
+          "$oid": "69d5bc92bbcb20195b4b86a0"
+        },
+        "cantidad": 2
+      }
+    ],
+    "cantidadTotal": 2,
+    "totalPagar": {
+      "$numberDouble": "3000.0"
+    },
+    "estadoOrden": "Lista",
+    "metodoPago": "Efectivo",
+    "observaciones": "Sin azúcar extra"
+  }
+]

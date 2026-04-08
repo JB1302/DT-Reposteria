@@ -1,0 +1,38 @@
+[
+  {
+    "nombre": "Pasteles",
+    "categoria": "Repostería dulce",
+    "descripcion": "Pasteles enteros para cumpleaños y celebraciones",
+    "estado": true
+  },
+  {
+    "nombre": "Cupcakes",
+    "categoria": "Repostería individual",
+    "descripcion": "Cupcakes decorados en distintos sabores",
+    "estado": true
+  },
+  {
+    "nombre": "Galletas",
+    "categoria": "Snacks dulces",
+    "descripcion": "Galletas artesanales decoradas y tradicionales",
+    "estado": true
+  },
+  {
+    "nombre": "Postres fríos",
+    "categoria": "Refrigerados",
+    "descripcion": "Cheesecakes, tres leches y otros postres fríos",
+    "estado": true
+  },
+  {
+    "nombre": "Panadería",
+    "categoria": "Horneados",
+    "descripcion": "Productos de panadería dulce y salada",
+    "estado": true
+  },
+  {
+    "nombre": "Temporada",
+    "categoria": "Especiales",
+    "descripcion": "Productos especiales por temporada o fechas festivas",
+    "estado": true
+  }
+]
