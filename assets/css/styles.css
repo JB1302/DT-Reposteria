@@ -2,6 +2,7 @@ html,
 body {
 	height: 100%;
 	margin: 0;
+	background-color: #fff8fb;
 }
 
 body {
@@ -593,5 +594,121 @@ h3 {
 		display: block;
 		width: 100%;
 		margin-right: 0 !important;
+	}
+}
+
+.pedido-card {
+	background: #fffafb;
+	border-radius: 18px;
+	overflow: hidden;
+}
+
+.pedido-card-header {
+	background: linear-gradient(90deg, #e35d8f, #d94f83);
+	color: #fff;
+	padding: 1rem 1.5rem;
+}
+
+.pedido-label {
+	color: #b34770;
+	font-weight: 700;
+	margin-bottom: 0.6rem;
+}
+
+.pedido-input {
+	border: 1px solid #f0d7df;
+	border-radius: 12px;
+	min-height: 48px;
+	color: #5b3b46;
+	background-color: #fff;
+	box-shadow: none;
+}
+
+.pedido-input:focus {
+	border-color: #e35d8f;
+	box-shadow: 0 0 0 0.15rem rgba(227, 93, 143, 0.12);
+}
+
+.pedido-textarea {
+	min-height: 110px;
+	resize: vertical;
+	padding-top: 0.85rem;
+}
+
+.pedido-btn-primary {
+	background: linear-gradient(90deg, #e35d8f, #d94f83);
+	color: #fff;
+	border: none;
+	border-radius: 999px;
+	padding: 0.7rem 1.4rem;
+	font-weight: 600;
+}
+
+.pedido-btn-primary:hover {
+	color: #fff;
+	opacity: 0.95;
+}
+
+.pedido-btn-outline {
+	border: 1px solid #e35d8f;
+	color: #d94f83;
+	background: #fff;
+	border-radius: 999px;
+	padding: 0.45rem 0.95rem;
+	font-weight: 600;
+}
+
+.pedido-btn-outline:hover {
+	background: #fff1f5;
+	color: #d94f83;
+}
+
+.producto-row {
+	background: #fff;
+	border: 1px solid #f2dbe3;
+	border-radius: 16px;
+	padding: 1rem;
+	margin-bottom: 1rem;
+}
+
+.producto-row .form-group {
+	margin-bottom: 0;
+}
+
+.btn-eliminar-producto {
+	border-radius: 999px;
+	border: 1px solid #efb3c7;
+	color: #c2547f;
+	background: #fff;
+	font-weight: 600;
+}
+
+.btn-eliminar-producto:hover {
+	background: #fff3f7;
+	color: #c2547f;
+	border-color: #e996b5;
+}
+
+.alert-success {
+	border-radius: 12px;
+	border: none;
+	background: #f4fff7;
+	color: #2b6b46;
+}
+
+.alert-danger {
+	border-radius: 12px;
+	border: none;
+	background: #fff4f4;
+	color: #9c3d52;
+}
+
+@media (max-width: 768px) {
+	.pedido-card-header {
+		padding: 0.9rem 1rem;
+	}
+
+	.card-body {
+		padding: 1rem !important;
 	}
 }
