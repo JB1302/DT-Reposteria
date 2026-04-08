@@ -1,4 +1,4 @@
-# 🍰 DT Repostería - Frontend
+# 🍰 DT Repostería - Full Stack Application
 
 ![HTML](https://img.shields.io/badge/HTML-5-orange)
 ![CSS](https://img.shields.io/badge/CSS-3-blue)
@@ -6,15 +6,16 @@
 ![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow)
 ![Node.js](https://img.shields.io/badge/Node.js-Express-green)
 ![MongoDB](https://img.shields.io/badge/MongoDB-NoSQL-brightgreen)
+![Architecture](https://img.shields.io/badge/Architecture-FullStack-blueviolet)
 ![Status](https://img.shields.io/badge/Status-In%20Development-pink)
 
 ---
 
 ## 📌 Project Overview
 
-DT Repostería is a modern web application designed to manage a bakery system through a clean and responsive user interface.
+DT Repostería is a full-stack web application designed to manage a bakery system, including clients, categories, products, and orders.
 
-This repository contains the frontend layer of a full-stack application, built to interact with a REST API developed in Express.js, which connects to a MongoDB database.
+The system integrates a responsive frontend with a RESTful API built in Express.js and a MongoDB database with strict schema validation.
 
 ---
 
@@ -36,23 +37,30 @@ Database (MongoDB)
   - Products
   - Orders
 
-- Dynamic UI using:
-  - jQuery
-  - Bootstrap components
+- Advanced order system:
+  - Client validation
+  - Product validation
+  - Stock validation
+  - Automatic total calculation
+  - Stock update after purchase
 
-- Order management system
+- Clean modular architecture:
+  - Controllers
+  - Services
+  - Models
+  - Routes
 
-- API integration with Express
+- API-driven frontend
+
+- Responsive UI with Bootstrap
 
 - Real product images via URLs
-
-- Clean and responsive design
 
 ---
 
 ## 🛠️ Technologies Used
 
-Frontend:
+### Frontend
 
 - HTML5
 - CSS3
@@ -60,84 +68,145 @@ Frontend:
 - JavaScript (ES6)
 - jQuery
 
-Backend (External API):
+### Backend
 
 - Node.js
 - Express.js
 
-Database:
+### Database
 
-- MongoDB
+- MongoDB (with schema validation)
 
 ---
 
 ## 📁 Project Structure
 
-/frontend
+```
+DT Reposteria - FullStack/
 │
-├── pages/
-│ ├── home/
-│ ├── clientes/
-│ ├── categorias/
-│ ├── productos/
-│ └── ordenes/
+├── API/
+│   ├── src/
+│   │   ├── Config/
+│   │   ├── Controllers/
+│   │   ├── Models/
+│   │   ├── Routes/
+│   │   ├── Services/
+│   │   └── app.js
+│   ├── package.json
+│   └── package-lock.json
 │
 ├── assets/
-│ ├── css/
-│ ├── js/
-│ └── static/
+│   ├── css/
+│   └── static/
 │
-├── components/
-│ ├── navbar
-│ └── footer
+├── DB Inserts/
+│   ├── categorias.json
+│   ├── clientes.json
+│   ├── productos.json
+│   └── ordenes.json
 │
-└── index.html
+├── shared/
+│   ├── components/
+│   │   ├── navbar.html
+│   │   └── footer.html
+│   ├── js/
+│   │   └── components.js
+│
+├── pages/
+│   ├── Home.html
+│   ├── Clientes.html
+│   ├── Categorias.html
+│   ├── Productos.html
+│   ├── Ordenes.html
+│   └── hacerPedido.html
+```
 
 ---
 
-## 🔗 API Integration
+## 🔗 API Endpoints
 
-GET /api/productos
-POST /api/productos
-PUT /api/productos/:id
-DELETE /api/productos/:id
+### Clients
 
-Similar endpoints exist for:
+GET /api/clientes - Retrieve all clients  
+GET /api/clientes/:id - Retrieve one client by ID  
+POST /api/clientes - Create a new client  
+PUT /api/clientes/:id - Update an existing client  
+DELETE /api/clientes/:id - Delete a client
 
-- /clientes
-- /categorias
-- /ordenes
+### Categories
+
+GET /api/categorias - Retrieve all categories  
+GET /api/categorias/:id - Retrieve one category by ID  
+POST /api/categorias - Create a new category  
+PUT /api/categorias/:id - Update an existing category  
+DELETE /api/categorias/:id - Delete a category
+
+### Products
+
+GET /api/productos - Retrieve all products  
+GET /api/productos/:id - Retrieve one product by ID  
+POST /api/productos - Create a new product  
+PUT /api/productos/:id - Update an existing product  
+DELETE /api/productos/:id - Delete a product
+
+### Orders
+
+GET /api/ordenes - Retrieve all orders  
+GET /api/ordenes/:id - Retrieve one order by ID  
+POST /api/ordenes - Create an order manually  
+PUT /api/ordenes/:id - Update an order  
+DELETE /api/ordenes/:id - Delete an order
+
+### Order Processing
+
+POST /api/ordenes/hacer-pedido - Create an order with validation, stock control, and automatic calculations
 
 ---
 
 ## ⚙️ Setup & Usage
 
-1. Clone the repository:
-   git clone https://github.com/your-username/dt-reposteria-frontend.git
+### Backend
 
-2. Open the project:
-   cd dt-reposteria-frontend
+1. Navigate to API:
+   cd API
 
-3. Run using Live Server or open index.html manually.
+2. Install dependencies:
+   npm install
 
-4. Make sure the backend API is running:
-   http://localhost:3000
+3. Run the server:
+   npm run dev
+
+4. Server runs on:
+   http://127.0.0.1:5000
+
+---
+
+### Frontend
+
+1. Open project folder
+
+2. Run using Live Server or open:
+   pages/Home.html
+
+3. Make sure backend is running before testing
 
 ---
 
 ## 📸 UI Preview
 
-- Landing page with branding and CTA
-- CRUD views for each module
-- Clean pastel color palette UI
+- Landing page with branding
+- CRUD interfaces for all modules
+- Order creation flow
+- Responsive pastel design
 
 ---
 
 ## 📌 Notes
 
-- This project is part of a full-stack academic implementation.
-- The frontend is designed to be lightweight and API-driven.
-- MongoDB uses a NoSQL schema with references via ObjectId.
+- Built as an academic full-stack project
+- Uses MongoDB with strict validation
+- Follows layered architecture (Controller-Service-Model)
+- API tested using Postman
 
 ---
 
@@ -149,4 +218,4 @@ Jonathan Steven Barrantes Jiménez
 
 ## 📄 License
 
-This project is for academic and educational purposes.
+Educational and academic use only
