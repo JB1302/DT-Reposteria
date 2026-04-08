@@ -1,89 +1,49 @@
-# 🍰 DT Repostería - Full Stack Application
+# 🍰 DT Repostería
 
-![HTML](https://img.shields.io/badge/HTML-5-orange)
-![CSS](https://img.shields.io/badge/CSS-3-blue)
-![Bootstrap](https://img.shields.io/badge/Bootstrap-4.4-purple)
-![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow)
-![Node.js](https://img.shields.io/badge/Node.js-Express-green)
-![MongoDB](https://img.shields.io/badge/MongoDB-NoSQL-brightgreen)
-![Architecture](https://img.shields.io/badge/Architecture-FullStack-blueviolet)
-![Status](https://img.shields.io/badge/Status-In%20Development-pink)
+<div align="center">
 
----
+![Status](https://img.shields.io/badge/status-active-22c55e?style=for-the-badge)
+![Architecture](https://img.shields.io/badge/architecture-frontend%20%2B%20api-6366f1?style=for-the-badge)
+![Node](https://img.shields.io/badge/node.js-20%2B-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![Express](https://img.shields.io/badge/express-5.x-000000?style=for-the-badge&logo=express&logoColor=white)
+![MongoDB](https://img.shields.io/badge/mongodb-mongoose-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/bootstrap-4.4-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)
 
-## 📌 Project Overview
+**Full stack application for managing customers, categories, products, and orders for a pastry business.**
 
-DT Repostería is a full-stack web application designed to manage a bakery system, including clients, categories, products, and orders.
-
-The system integrates a responsive frontend with a RESTful API built in Express.js and a MongoDB database with strict schema validation.
+</div>
 
 ---
 
-## 🧩 Architecture
+## ✨ Overview
 
-Frontend (HTML, Bootstrap, JS)
-↓
-REST API (Express.js)
-↓
-Database (MongoDB)
+**DT Repostería** is a web project with a static frontend + REST API that allows you to manage the main workflow of a pastry business:
 
----
+- CRUD management for customers, categories, products, and orders.
+- Order registration with customer/product validation.
+- Real-time stock control during order creation.
+- Automatic calculation of total quantity and total amount due.
 
-## 🚀 Features
-
-- Full CRUD operations:
-  - Clients
-  - Categories
-  - Products
-  - Orders
-
-- Advanced order system:
-  - Client validation
-  - Product validation
-  - Stock validation
-  - Automatic total calculation
-  - Stock update after purchase
-
-- Clean modular architecture:
-  - Controllers
-  - Services
-  - Models
-  - Routes
-
-- API-driven frontend
-
-- Responsive UI with Bootstrap
-
-- Real product images via URLs
+Its modular design makes the code easier to maintain and scale.
 
 ---
 
-## 🛠️ Technologies Used
+## 🧱 Project Architecture
 
-### Frontend
-
-- HTML5
-- CSS3
-- Bootstrap 4
-- JavaScript (ES6)
-- jQuery
-
-### Backend
-
-- Node.js
-- Express.js
-
-### Database
-
-- MongoDB (with schema validation)
-
----
-
-## 📁 Project Structure
-
+```text
+Frontend (HTML + Bootstrap + JS)
+          │
+          ▼
+     REST API (Express)
+          │
+          ▼
+   MongoDB (Mongoose)
 ```
-DT Reposteria - FullStack/
-│
+
+### Main Structure
+
+```bash
+DT-Reposteria/
 ├── API/
 │   ├── src/
 │   │   ├── Config/
@@ -92,130 +52,155 @@ DT Reposteria - FullStack/
 │   │   ├── Routes/
 │   │   ├── Services/
 │   │   └── app.js
-│   ├── package.json
-│   └── package-lock.json
-│
+│   └── package.json
+├── shared/
+│   ├── components/
+│   ├── js/
+│   └── pages/
 ├── assets/
 │   ├── css/
 │   └── static/
-│
-├── DB Inserts/
-│   ├── categorias.json
-│   ├── clientes.json
-│   ├── productos.json
-│   └── ordenes.json
-│
-├── shared/
-│   ├── components/
-│   │   ├── navbar.html
-│   │   └── footer.html
-│   ├── js/
-│   │   └── components.js
-│
-├── pages/
-│   ├── Home.html
-│   ├── Clientes.html
-│   ├── Categorias.html
-│   ├── Productos.html
-│   ├── Ordenes.html
-│   └── hacerPedido.html
+└── DB Inserts/
+    ├── categorias.json
+    ├── clientes.json
+    ├── productos.json
+    └── ordenes.json
 ```
 
 ---
 
-## 🔗 API Endpoints
+## 🧩 Key Features
 
-### Clients
+### 1) Catalog Management
 
-GET /api/clientes - Retrieve all clients  
-GET /api/clientes/:id - Retrieve one client by ID  
-POST /api/clientes - Create a new client  
-PUT /api/clientes/:id - Update an existing client  
-DELETE /api/clientes/:id - Delete a client
+- Customers
+- Categories
+- Products
+- Orders
+
+### 2) Smart Order Flow (`/api/ordenes/hacer-pedido`)
+
+Includes critical business rules:
+
+- Verifies that the customer exists.
+- Verifies that the submitted products exist.
+- Validates quantities (> 0).
+- Validates stock availability for each product.
+- Deducts stock once the order is confirmed.
+- Automatically calculates:
+  - `cantidadTotal`
+  - `totalPagar`
+- Initializes the order status as `Pendiente`.
+
+---
+
+## 🛠️ Technology Stack
+
+| Layer    | Technologies                                         |
+| -------- | ---------------------------------------------------- |
+| Frontend | HTML5, CSS3, Bootstrap 4.4, JavaScript (ES6), jQuery |
+| Backend  | Node.js, Express 5, body-parser, cors                |
+| Database | MongoDB + Mongoose                                   |
+
+---
+
+## 🚀 Local Setup
+
+### Prerequisites
+
+- Node.js installed.
+- MongoDB running locally.
+- MongoDB port configured as in the project: `21313`.
+
+> The API attempts to connect to: `mongodb://127.0.0.1:21313/DTreposteria`.
+
+### 1) Start the API
+
+```bash
+cd API
+npm install
+npm run dev
+```
+
+Default server: `http://localhost:5000`
+
+### 2) Run the frontend
+
+You can open the views directly from `shared/pages/`, but it is recommended to use a static server (for example, Live Server) to avoid `fetch` restrictions when loading components.
+
+Suggested home page:
+
+```text
+shared/pages/Home.html
+```
+
+---
+
+## 📡 REST Endpoints
+
+### Customers
+
+- `GET /api/clientes`
+- `GET /api/clientes/:id`
+- `POST /api/clientes`
+- `PUT /api/clientes/:id`
+- `DELETE /api/clientes/:id`
 
 ### Categories
 
-GET /api/categorias - Retrieve all categories  
-GET /api/categorias/:id - Retrieve one category by ID  
-POST /api/categorias - Create a new category  
-PUT /api/categorias/:id - Update an existing category  
-DELETE /api/categorias/:id - Delete a category
+- `GET /api/categorias`
+- `GET /api/categorias/:id`
+- `POST /api/categorias`
+- `PUT /api/categorias/:id`
+- `DELETE /api/categorias/:id`
 
 ### Products
 
-GET /api/productos - Retrieve all products  
-GET /api/productos/:id - Retrieve one product by ID  
-POST /api/productos - Create a new product  
-PUT /api/productos/:id - Update an existing product  
-DELETE /api/productos/:id - Delete a product
+- `GET /api/productos`
+- `GET /api/productos/:id`
+- `POST /api/productos`
+- `PUT /api/productos/:id`
+- `DELETE /api/productos/:id`
 
 ### Orders
 
-GET /api/ordenes - Retrieve all orders  
-GET /api/ordenes/:id - Retrieve one order by ID  
-POST /api/ordenes - Create an order manually  
-PUT /api/ordenes/:id - Update an order  
-DELETE /api/ordenes/:id - Delete an order
-
-### Order Processing
-
-POST /api/ordenes/hacer-pedido - Create an order with validation, stock control, and automatic calculations
+- `GET /api/ordenes`
+- `GET /api/ordenes/:id`
+- `POST /api/ordenes`
+- `POST /api/ordenes/hacer-pedido`
+- `PUT /api/ordenes/:id`
+- `DELETE /api/ordenes/:id`
 
 ---
 
-## ⚙️ Setup & Usage
+## 🧪 Available Scripts (API)
 
-### Backend
-
-1. Navigate to API:
-   cd API
-
-2. Install dependencies:
-   npm install
-
-3. Run the server:
-   npm run dev
-
-4. Server runs on:
-   http://127.0.0.1:5000
+```bash
+npm run start   # starts the server with node
+npm run dev     # starts the server with nodemon
+```
 
 ---
 
-### Frontend
+## 📦 Seed Data
 
-1. Open project folder
+The **`DB Inserts/`** folder includes JSON documents to populate test collections:
 
-2. Run using Live Server or open:
-   pages/Home.html
+- `clientes.json`
+- `categorias.json`
+- `productos.json`
+- `ordenes.json`
 
-3. Make sure backend is running before testing
-
----
-
-## 📸 UI Preview
-
-- Landing page with branding
-- CRUD interfaces for all modules
-- Order creation flow
-- Responsive pastel design
-
----
-
-## 📌 Notes
-
-- Built as an academic full-stack project
-- Uses MongoDB with strict validation
-- Follows layered architecture (Controller-Service-Model)
-- API tested using Postman
+Ideal for demos, manual testing, or quick local setup.
 
 ---
 
 ## 👨‍💻 Author
 
-Jonathan Steven Barrantes Jiménez
+**Jonathan Steven Barrantes Jiménez**
 
 ---
 
 ## 📄 License
 
-Educational and academic use only
+Educational/academic use.
